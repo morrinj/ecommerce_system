@@ -1,0 +1,10 @@
+/ecommerce_system/uploads/products/*.jpg
+/ecommerce_system/uploads/products/*.jpeg
+/ecommerce_system/uploads/products/*.png
+/ecommerce_system/uploads/products/*.gif
+/ecommerce_system/uploads/products/*.webp
+/ecommerce_system/assets/cached_images/
+
+node_modules/
+vendor/
+.env
