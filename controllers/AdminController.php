@@ -43,7 +43,6 @@ class AdminController {
 
     public function logout(): void {
         unset($_SESSION['admin_id'], $_SESSION['admin_name'], $_SESSION['admin_role']);
-        session_destroy();
         redirect('admin/login');
     }
 

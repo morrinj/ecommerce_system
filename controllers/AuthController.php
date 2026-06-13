@@ -69,7 +69,7 @@ class AuthController {
     }
 
     public function logout(): void {
-        session_destroy();
+        unset($_SESSION['user_id'], $_SESSION['user_name'], $_SESSION['user_email']);
         redirect('login');
     }
 
